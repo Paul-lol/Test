@@ -1,0 +1,33 @@
+body{
+  background-color: white;
+}
+.container1, .container3{
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 75%;
+  text-align: center;
+}
+
+.flex-box1 , .flex-box2, .flex-box3{
+  display: flex;
+  border: 2px solid black;
+  padding: 10px; 
+  justify-content: space-around;
+  flex-wrap: wrap ;
+}
+
+.flex-box1 div{
+  padding: 10px;
+  border: 0px solid black;
+}
+
+.flex-box2 img { 
+  border: 1px solid green;
+  margin: 10px;
+  box-shadow: 0px 10px 20px black;
+}
+
+.flex-box3 img:hover{
+  box-shadow: 0px 10px 20px rgb(76, 98, 221);
+}
+

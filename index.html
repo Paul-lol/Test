@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+   <div class="container1">
+        <h2>Challenge 1: Your Age in Days</h2>
+        <div class="flex-box1">
+        <div>
+          <button class="btn btn-primary" onclick="ageInDays()">Click me</button>
+        </div>
+        <div>
+          <button class="btn btn-danger" onclick="reset()">reset</button>
+        </div>
+      </div>
+
+      <div class="flex-box1" >
+         <div id="add">
+         </div>
+      </div>
+   </div>
+
+   <div class="container1"> 
+      <h2> Challenge 2: Cat generator</h2>
+      <button id="catButton" class="btn btn-success" onclick="catGenerator()">
+         Generate a Cat 
+      </button>
+
+      <div id="catImage" class="flex-box2"> 
+        
+      </div>
+   </div>
+
+   <div class="container3"> 
+       <h2> Rock, Paper, Scissors Game </h2>
+       <div class= flex-box3 id="flex-box-img" > 
+          <img id="rock" src="https://media1.popsugar-assets.com/files/thumbor/IZAP8WXU960ToYBKB-qCWnj_7S0/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2017/04/12/032/n/1922398/f18f0f5a58eebc47a5d6d1.65693853_edit_img_image_36279217_1480082400/i/Hottest-Pictures-Dwayne-Rock-Johnson.jpg" width="100" height="100" onclick="rpsGame(this)"/> 
+          <img alt="paper" id="paper" src="https://cliparting.com/wp-content/uploads/2016/07/Paper-clip-arts-and-crafts-free-clipart-images-clipartcow-2.jpg" width="100" height="100" onclick="rpsGame(this)"/> 
+          <img alt="scissors" id="scissors" src="https://media2.giphy.com/media/rHeYOoBs4Qn16/giphy.gif?cid=ecf05e4701989d7cf048625e479f1e9d22c4899180a60a32&rid=giphy.gif" width="100" height="100" onclick="rpsGame(this)"/> 
+       </div>
+   </div>
+  <script src="js/app.js"></script>
+</body>
+</html>
